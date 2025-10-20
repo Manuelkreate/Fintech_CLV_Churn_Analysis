@@ -1,0 +1,25 @@
+## --- General Operating System and Editor Files ---
+
+.DS_Store.vscode/
+
+## --- Python-Specific Files and Folders ---
+
+pycache/*.pyc*.o*.sovenv/env/.env
+
+## --- Data Files (CRITICAL: Never commit large, raw data) ---
+
+## We track the 'data' folder structure, but ignore the large content.
+
+/data/.csv/data/.xlsx/data/*.zip
+
+## --- Notebook/Output Files ---
+
+## Ignore checkpoints and intermediate files
+
+.ipynb_checkpoints
+
+## --- Power BI Files (Can be large, but we include the final .pbix) ---
+
+## Temporarily ignore large PBIT files, only include the final PBIX
+
+*.pbit

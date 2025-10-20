@@ -1,0 +1,39 @@
+name: fintech_clv_env
+channels:
+
+defaults
+
+conda-forge
+dependencies:
+
+# --- Core Data Manipulation ---
+
+python=3.10
+
+pandas
+
+numpy
+
+openpyxl # Needed if you read the raw XLSX file before converting to CSV
+
+# --- Data Visualization ---
+
+matplotlib
+
+seaborn
+
+# --- Machine Learning/Modeling ---
+
+scikit-learn
+
+# --- Notebook Environment ---
+
+jupyter
+
+# For the Power BI component, these are not needed but are good practice:
+
+# pip
+
+# - pip:
+
+# ydata-profiling # Useful for initial EDA
