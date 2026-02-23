@@ -5,6 +5,7 @@
 This project analyzes the transaction behavior of 198,576 customers, re-framing a large retail dataset as a **Fintech** platform to define Customer Lifetime Value (CLV) and predict churn. The goal was to build an accurate predictive model to proactively identify high-risk customers based on their usage patterns.
 
 ## Key Findings & Business Insights
+![Feature Importance Chart](visualizations/Feature_Importance_Chart.png)
 
 The primary finding shows that consistent engagement (frequency) is the most critical factor for customer retention.
 
